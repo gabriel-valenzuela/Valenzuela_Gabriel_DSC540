@@ -6,6 +6,8 @@
 
 The goal of this data preparation project is to collect several different forms of data types including a csv, a website, and an API to combine and input into a SQL Lite Database. The data that is being collected and merged focuses on around the famous video game of Pokemon that emerged in the 90s that contained about only 150 pokemon in the beginning with their own characteristics. As the years progressed and more games were released containing new and exciting creatures, the information surrounding grew and included more characterists and unique combinations. Once the database is created, I created a Microsoft Power BI report to show to provide summaries of different aspects of the creatures. 
 
+![First Pokemon Games](https://github.com/gabriel-valenzuela/Valenzuela_Gabriel_DSC540/blob/master/Final%20Project/474px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png)
+
 ### Environment
 
 Python and instances of SQL were utilized within various jupyter notebooks to complete the database. 
@@ -186,6 +188,9 @@ df.to_csv(r'C:\Users\Gabe\Documents\Bellevue University\Data Preparation\Final P
 ```
 
 #### Database Development
+
+![All Pokemon](https://github.com/gabriel-valenzuela/Valenzuela_Gabriel_DSC540/blob/master/Final%20Project/pokemon_draw_em_all_poster_1.jpg)
+
 ```python
 import sqlite3
 conn = sqlite3.connect('PokemonDB.db')
