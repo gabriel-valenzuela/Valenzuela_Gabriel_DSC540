@@ -8,7 +8,7 @@ The goal of this data preparation project is to collect several different forms 
 
 ### Environment
 
-Python was utilized within various jupyter notebooks to complete the database. 
+Python and instances of SQL were utilized within various jupyter notebooks to complete the database. 
 
 ### Data Sources
 
@@ -210,3 +210,5 @@ csv_website_df.info()
 
 ```
 
+### Visualizations
+The visualization are located within the repository as a PDF.
