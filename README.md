@@ -12,14 +12,6 @@ The goal of this data preparation project is to collect several different forms 
 
 Python and instances of SQL were utilized within various jupyter notebooks to complete the database. 
 
-### Data Sources
-
-CSV:
-
-Website:
-
-API:
-
 ### Methods
 
 For each of the data sources, the goal was to clean the data once collected and then export them as CSV files to be added to the master Pokemon database as data frames. 
@@ -217,3 +209,7 @@ csv_website_df.info()
 
 ### Visualizations
 The visualization are located within the repository as a PDF.
+
+### Conclusion
+From this project, I was able to merge data from three different types of sources: CSV, Website, and API. In the process of merging these sets into a SQL lite database, the data was preppared by altering various variables within each set and scraping the data from their sources. From this database, a user would be able to locate a creature, or Pokemon, to understand its various attributes and moves that were assigned to it by the creators of the game.
+
